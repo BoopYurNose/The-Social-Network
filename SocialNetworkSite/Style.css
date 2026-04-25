@@ -1,12 +1,30 @@
-body{
-    background-color: gray;
-}
-
-.TopBar {
-    background-color: rgb(116, 188, 221);
+body {
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
-    padding: 1rem 1rem;
-    gap: 0.5rem;
+    flex-direction: column;
 }
 
+main {
+    margin-top: 0;
+    border: 1px solid rgba(59, 89, 152);
+}
+
+header {
+    border: 3px solid rgba(59, 89, 152);
+    background-color: rgba(59, 89, 152);
+    height: 100px;
+    width: 100%;
+}
+
+
+.container {
+    color: rgb(82, 137, 221);
+    font-family: monospace;
+    font-size: 50px;
+    margin: 15px;
+    padding-left: 400px;
+}
+
+.Banner {
+    width: auto;
+}
