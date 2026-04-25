@@ -21,7 +21,7 @@ header {
     color: rgb(82, 137, 221);
     font-family: monospace;
     font-size: 50px;
-    margin: 15px;
+    padding-top: -60px;
     padding-left: 400px;
 }
 
