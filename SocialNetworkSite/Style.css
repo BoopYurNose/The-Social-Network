@@ -1,19 +1,19 @@
-body {
+body{
     margin: 0;
     flex-direction: column;
     border: 1px solid rgba(59, 89, 152);
+    font-family: monospace;
 }
 
-main {
+main{
     margin: 1px 1px;
     border: 1px solid rgba(59, 89, 152);
 }
 
-header {
+header{
     position: relative;
     background-color: rgba(59, 89, 152);
     padding: 25px;
-    text-align: right;
     background-image: url(Images/2004FacebookBanner.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -21,10 +21,51 @@ header {
     
 }
 
-.container {
+.container{
     display: inline-block;
     position: relative;
     color: rgb(82, 137, 221);
-    font-family: monospace;
     font-size: 5em;
+    padding-left: 50vw;
 }
+
+.WelcomeScreen{
+    width: 75%;
+    margin-left: 24.85%;
+    text-align: center;
+}
+
+/*.WelcomeScreen h1{
+
+}*/
+
+.InfoText{
+    font-size: 1em;
+}
+.InfoText ul{
+    list-style-type: none;
+}
+
+.Title{
+    background-color: rgba(59, 89, 152);
+    color: rgba(255, 255, 255);
+    padding: 1px 1px;
+}
+
+.button{
+    display: inline-block;
+    
+}
+
+.RegisterButton{
+    color: white;
+    background-color: #3e79fa;
+    padding: 2px 7px;
+}
+
+.LoginButton{
+    color: white;
+    background-color: #3e79fa;
+    padding: 2px 7px;
+}
+
