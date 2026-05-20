@@ -35,10 +35,6 @@ header{
     text-align: center;
 }
 
-/*.WelcomeScreen h1{
-
-}*/
-
 .InfoText{
     font-size: 1em;
 }
@@ -52,10 +48,6 @@ header{
     padding: 1px 1px;
 }
 
-.button{
-    display: inline-block;
-    
-}
 
 .RegisterButton{
     color: white;
@@ -69,3 +61,28 @@ header{
     padding: 2px 7px;
 }
 
+.ButtonElements{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(59, 89, 152);
+}
+footer{
+    text-align: center;
+}
+
+aside{
+    position: absolute;
+    margin: 1px 1px;
+    top: 215px;
+    border: 2px dotted rgba(59, 89, 152);
+    padding: 2px 2px;
+}
+
+.LoginText{
+    text-align: right;
+}
