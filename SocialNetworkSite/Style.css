@@ -29,9 +29,10 @@ header{
     padding-left: 50vw;
 }
 
-.WelcomeScreen{
-    width: 75%;
-    margin-left: 24.85%;
+.WelcomeScreen{ /*Fix this, it's not properly scaling with different sizes of the screen*/
+    position: relative;
+    width: 90%;
+    margin-left: 9.85%;
     text-align: center;
 }
 
@@ -43,6 +44,7 @@ header{
 }
 
 .Title{
+    text-align: left;
     background-color: rgba(59, 89, 152);
     color: rgba(255, 255, 255);
     padding: 1px 1px;
