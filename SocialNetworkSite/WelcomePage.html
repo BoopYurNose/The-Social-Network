@@ -10,9 +10,24 @@
 
         <header>
             <h1 class = "container">[thefacebook]</h1>
+            <a href = "Test"><h3 class = "Options">login</h3></a>
+            <a href = "Test"><h3 class = "Options">register</h3></a>
+            <a href = "Test"><h3 class = "Options">about</h3></a>
         </header>
-
-        <main class = "WelcomeScreen">
+        <div class = "WelcomeScreen">
+            <aside>
+                <div class = "LoginText">Email:</div>
+                <div><input class = "InputBox"></div> <!--Make this a class so you can change properties about both input boxes in css-->
+                <div class = "LoginText">Password:</div>
+                <div><input class = "InputBox"></div> <!--Make this a class so you can change properties about both input boxes in css-->
+                <div class = "ButtonElements"> <!--Work on getting the formatting of the email and password correct later on,
+                     honestly probably just make the main elements stretch to fix the current size of the login thing-->
+                    <div><button class = "RegisterButton">Register</button></div>
+                    <div><button class = "LoginButton">Login</button></div>
+                </div>
+                <br>
+            </aside>
+            <main>
             <div class = "Title">Welcome to Thefacebook!</div>
             <br>
             <br>
@@ -39,21 +54,9 @@
                 <br>
                 <br>
             </div>
-        </main>
-        <aside>
-            <div class = "LoginSection">
-                <div class = "LoginText">Email:</div>
-                <div><input></div> <!--Make this a class so you can change properties about both input boxes in css-->
-                <div class = "LoginText">Password:</div>
-                <div><input></div> <!--Make this a class so you can change properties about both input boxes in css-->
-                <div class = "ButtonElements"> <!--Work on getting the formatting of the email and password correct later on,
-                     honestly probably just make the main elements stretch to fix the current size of the login thing-->
-                    <div><button class = "RegisterButton">Register</button></div>
-                    <div><button class = "LoginButton">Login</button></div>
-                </div>
-                <br>
-            </div>
-        </aside>
+            </main>
+        </div>
+        
 
         <footer>
             <br>
