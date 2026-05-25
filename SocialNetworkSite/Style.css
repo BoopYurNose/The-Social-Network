@@ -2,7 +2,7 @@ body{
     margin: 0;
     flex-direction: column;
     display: flex;
-    border: 1px solid rgba(59, 89, 152);
+    border: 1px solid rgb(59, 89, 152);
     font-family: monospace;
 }
 
@@ -10,12 +10,12 @@ main{
     justify-content: right;
     width: 100%;
     margin: 1px 1px;
-    border: 1px solid rgba(59, 89, 152);
+    border: 1px solid rgb(59, 89, 152);
 }
 
 header{
     position: relative;
-    background-color: rgba(59, 89, 152);
+    background-color: rgb(59, 89, 152);
     background-image: url(Images/2004FacebookBanner.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -63,8 +63,8 @@ header{
 
 .Title{
     text-align: left;
-    background-color: rgba(59, 89, 152);
-    color: rgba(255, 255, 255);
+    background-color: rgb(59, 89, 152);
+    color: rgb(255, 255, 255);
     padding: 1px 1px;
 }
 
@@ -93,7 +93,7 @@ a{
 
 .BottomLinks a{
     text-decoration: none;
-    color: rgba(59, 89, 152);
+    color: rgb(59, 89, 152);
 }
 footer{
     text-align: center;
@@ -105,7 +105,7 @@ aside{
     position: relative;
     height: 25%;
     margin: 1px 1px;
-    border: 2px dotted rgba(59, 89, 152);
+    border: 2px dotted rgb(59, 89, 152);
     padding: 2px 2px;
 }
 
@@ -114,6 +114,15 @@ aside{
 }
 
 .InputBox{
-    background-color: rgba(217, 223, 234);
+    background-color: rgb(217, 223, 234);
     border: 1.75px solid;
+}
+
+.RegisterStuff{
+    padding: 2px 35vw;
+    text-align: left;
+}
+
+.TextSpacing{
+    margin-right: 15%;
 }
