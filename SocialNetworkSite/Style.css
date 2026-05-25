@@ -13,6 +13,13 @@ main{
     border: 1px solid rgb(59, 89, 152);
 }
 
+.SmallerMain{
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    margin: 1px 1px;
+}
+
 header{
     position: relative;
     background-color: rgb(59, 89, 152);
