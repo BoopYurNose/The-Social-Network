@@ -8,3 +8,4 @@ here was my reference.
 https://www.webdesignmuseum.org/gallery/facebook-2004
 
 Hope I did alright, ᕦ(⩾﹏⩽)ᕥ I'm pretty proud of it myself, I think it's pretty close.
+Finished 5/25/26 (sorry took forever to get to this lmao)
