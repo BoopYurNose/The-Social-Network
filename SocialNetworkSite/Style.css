@@ -14,10 +14,22 @@ main{
 }
 
 .SmallerMain{
+    display: inline-block;
     position: relative;
-    width: 50%;
+    width: 85%;
+    height: auto;
     justify-content: center;
-    margin: 1px 1px;
+    align-items: center;
+    margin: 7px 1px;
+}
+
+.InnerText{
+    padding: 10px 10px;
+}
+
+.FounderText{
+    padding: 5px 20px;
+    text-align: left;
 }
 
 header{
