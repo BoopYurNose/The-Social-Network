@@ -31,14 +31,13 @@ header{
     padding-left: 50vw;
 }
 
-.Options{/*You need to scale the header, this is not scaled properly, we can worry about this later.*/
+.Options{/*Figure out how to get the words to get closer to the main word, I'm going to take a nap*/
     display: inline;
     position: relative;
     color: rgb(255, 255, 255);
     font-size: 1em;
     padding: 0px 3px;
-    top: 30px;
-    right: 466px;
+    padding-left: 50.35vw;
 }
 
 
@@ -46,7 +45,7 @@ header{
     display: flex;
     position: relative;
     text-align: center;
-    
+
 }
 
 .InfoText{
@@ -83,6 +82,10 @@ header{
 }
 
 a{
+    text-decoration: none;
+}
+
+.BottomLinks a{
     text-decoration: none;
     color: rgba(59, 89, 152);
 }
