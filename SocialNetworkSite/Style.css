@@ -26,18 +26,24 @@ header{
 .container{
     display: inline-block;
     position: relative;
+    margin: 5px 0px;
     color: rgb(82, 137, 221);
     font-size: 5em;
     padding-left: 50vw;
 }
 
-.Options{/*Figure out how to get the words to get closer to the main word, I'm going to take a nap*/
+.Options{
     display: inline;
     position: relative;
-    color: rgb(255, 255, 255);
     font-size: 1em;
-    padding: 0px 3px;
+    padding: 1px 1vw;
     padding-left: 50.35vw;
+    
+}
+
+.Options a{
+    color: rgb(255, 255, 255);
+    padding: 1px 2px;
 }
 
 
